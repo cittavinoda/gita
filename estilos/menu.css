@@ -36,7 +36,7 @@ nav{
     text-align: center;
 }
 .menu h1{
-    width: 72vw;
+    width: 78vw;
     margin: auto;
     border: 2px solid white;
     box-shadow: 3px 2px 4px white;
@@ -54,7 +54,7 @@ table td{
 
 tr td a {
     display: inline-block;
-    width: 50px;
+    width: 80px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -75,7 +75,7 @@ a:hover{
     text-align: center;
 }
 .org-gita h1{
-    width: 72vw;
+    width: 78vw;
     margin: auto;
     border: 2px solid white;
     box-shadow: 3px 2px 4px white;

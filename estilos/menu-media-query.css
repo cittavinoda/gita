@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: rgb(224, 224, 245);
+    --cor1: rgb(187, 187, 225);
+    --cor2: rgb(92, 92, 141);
+    --cor3: rgb(18, 18, 110);
+    --cor4: rgb(1, 1, 64);
+}
+
+
+@media screen and (max-width: 600px){
+    main{
+        background-color: rgb(1, 1, 64);
+        width: 90vw;
+        margin: auto;
+    }
+    tr td a{
+        width: 30px;
+    }
+    .menu h1{
+        font-size: 1.5em;
+        width: 72vw;
+    }
+    .org-gita h1{
+        width: 72vw;
+    }
+}
