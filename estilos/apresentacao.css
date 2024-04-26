@@ -1,0 +1,90 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: rgb(224, 224, 245);
+    --cor1: rgb(187, 187, 225);
+    --cor2: rgb(92, 92, 141);
+    --cor3: rgb(18, 18, 110);
+    --cor4: rgb(1, 1, 64);
+}
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--cor4);  
+}
+main{
+    width: 80vw;
+    background-color: var(--cor0);
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+}
+article{
+    width: 70vw;
+    text-align: justify;
+    margin: auto;
+}
+h1{
+    background-color: var(--cor4);
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-size: 2em;
+}
+p{
+    text-indent: 30px;
+    padding: 10px 0px 10px 0px;
+}
+p span{
+    font-weight: bold;
+    text-indent: 0;
+}
+p.verso{
+    text-indent: 0;
+}
+h2{
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor3), var(--cor4));
+    color: white;
+    padding: 10px 5px 10px 5px;
+}
+p.um{
+    font-size: 0.8em;
+    padding-bottom: 20px;
+    
+    text-align: right;
+}
+h3{
+    font-size: 1em;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor3), var(--cor4));
+    color: white;
+    padding: 10px 5px 10px 5px;
+}
+p.titulo{
+    text-indent: 0;
+    text-decoration: underline;
+}
+p.topico{
+    text-indent: 0;
+}
+p.saudacao{
+    text-align: right;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+a:hover{
+    background-color: var(--cor4);
+    color: white;
+}

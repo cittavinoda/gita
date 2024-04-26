@@ -1,0 +1,102 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: rgb(224, 224, 245);
+    --cor1: rgb(187, 187, 225);
+    --cor2: rgb(92, 92, 141);
+    --cor3: rgb(18, 18, 110);
+    --cor4: rgb(1, 1, 64);
+}
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--cor1);  
+}
+header{
+    background-color: var(--cor4);
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+nav{
+    display: block;
+    margin: auto;
+    width: 90vw;
+    height: 100vh;
+    background-color: var(--cor4);
+}
+.menu{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.menu h1{
+    width: 72vw;
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: 3px 2px 4px white;
+    text-shadow: 2px 2px 4px black;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.capitulos table{
+    margin: auto;
+}
+table td{
+    padding: 10px;
+}
+
+tr td a {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px; 
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
+    text-shadow: 6px 6px 10px black;
+    box-shadow: 2px 2px 6px black;
+}
+a:hover{
+    background-image: linear-gradient(to right, black, black, black);
+}
+.org-gita{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.org-gita h1{
+    width: 72vw;
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: 3px 2px 4px white;
+    text-shadow: 2px 2px 4px black;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.org-gita a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px; 
+    margin-top: 20px;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
+    text-shadow: 6px 6px 10px black;
+    box-shadow: 2px 2px 6px black;
+}
+

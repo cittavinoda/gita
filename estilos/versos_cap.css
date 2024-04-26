@@ -1,0 +1,117 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: rgb(224, 224, 245);
+    --cor1: rgb(187, 187, 225);
+    --cor2: rgb(92, 92, 141);
+    --cor3: rgb(18, 18, 110);
+    --cor4: rgb(1, 1, 64);
+}
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--cor4);  
+}
+
+nav{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    padding: 5px 0px 5px 0px;
+}
+main{
+    width: 80vw;
+    background-color: var(--cor0);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 3px var(--cor1);
+}
+header{
+    width: 75vw;
+    margin: auto;
+    padding-top: 10px;
+    background-image: linear-gradient(to right, var(--cor3), var(--cor2), var(--cor3));
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+header h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px black;
+}
+img{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+article{
+    width: 75vw;
+    margin: auto;
+    padding-top: 10px;
+}
+article h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.transliter{
+    font-style: italic;
+}
+.signif{
+    text-align: justify;
+}
+.traducao{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.verso{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.significado{
+    text-align: center;
+    padding-bottom: 20px;
+}
+p{
+    text-align: justify;
+    padding-bottom: 20px;
+    text-indent: 30px;
+}
+blockquote{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+span{
+    font-weight: bold;
+}
+
