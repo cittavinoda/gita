@@ -51,7 +51,6 @@ nav{
 table td{
     padding: 10px;
 }
-
 tr td a {
     display: inline-block;
     width: 80px;
@@ -67,30 +66,5 @@ tr td a {
     box-shadow: 2px 2px 6px black;
 }
 a:hover{
-    background-image: linear-gradient(to right, black, black, black);
-}
-.org{
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.org a{
-    display: inline-block;
-    width: 110px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: 1em;
-    font-weight: bold;
-    border: 2px solid white;
-    padding: 10px;
-    margin: 20px;
-    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
-    text-shadow: 6px 6px 10px black;
-    box-shadow: 2px 2px 6px black;
-}
-
-.org a:hover{
     background-image: linear-gradient(to right, black, black, black);
 }

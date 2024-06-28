@@ -14,7 +14,7 @@
 
 body{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: var(--cor4);  
 }
 main{
@@ -33,6 +33,7 @@ h1{
     padding: 10px 0px 10px 0px;
     color: white;
     font-size: 2em;
+    text-align: center;
 }
 p{
     text-indent: 30px;
@@ -78,13 +79,13 @@ footer{
     margin-top: 20px;
 }
 footer a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
     font-size: 1.2em;
     font-weight: bold;
 }
 a:hover{
-    background-color: var(--cor4);
-    color: white;
+    background-color: white;
+    color: black;
 }
