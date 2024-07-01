@@ -22,6 +22,7 @@ header{
     width: 90vw;
     display: block;
     margin: auto;
+    padding-top: 20px;
 }
 nav{
     display: block;
@@ -67,4 +68,21 @@ tr td a {
 }
 a:hover{
     background-image: linear-gradient(to right, black, black, black);
+}
+footer{
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+footer a{
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border: solid, 2px;
+}
+footer a:hover{
+    background-color: black;
 }
