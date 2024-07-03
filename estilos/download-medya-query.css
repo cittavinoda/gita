@@ -1,0 +1,14 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 500px){
+    tr td a {
+        
+        width: 50px;
+        
+    }
+}
+    

@@ -85,7 +85,7 @@ a:hover{
     font-weight: bold;
     border: 2px solid white;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
     text-shadow: 6px 6px 10px black;
     box-shadow: 2px 2px 6px black;
