@@ -1,0 +1,65 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: rgb(224, 224, 245);
+    --cor1: rgb(187, 187, 225);
+    --cor2: rgb(92, 92, 141);
+    --cor3: rgb(18, 18, 110);
+    --cor4: rgb(1, 1, 64);
+}
+body{
+    background-color: var(--cor1);
+}
+
+div{
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
+    padding: 20px;
+    text-align: center;
+}
+div a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+div a:hover{
+    background-color: black;
+}
+main{
+    width: 90vw;
+    margin: 10px 20px  10px 20px;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px; 
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: var(--cor4);
+    width: 100%;
+    color: white;
+}
+h3{
+    padding: 10px;
+    text-align: justify;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
+    color: white;
+}
+p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 1.1em;
+    text-indent: 30px;
+}
+blockquote{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-weight: bold;
+}

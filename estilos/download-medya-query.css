@@ -8,7 +8,10 @@
     tr td a {
         
         width: 50px;
-        
+        padding: 5px;
+    }
+    table td{
+        padding: 5px;
     }
 }
     
