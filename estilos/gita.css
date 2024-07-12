@@ -34,6 +34,9 @@ footer{
     padding-bottom: 20px;
     text-align: center;
 }
+footer a{
+    padding-right: 10px;
+}
 
 a{
     text-decoration: none;
