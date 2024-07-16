@@ -57,15 +57,19 @@ nav{
     margin-bottom: 20px;
 }
 tr td a{
+    font-size: 1.2em;
     text-decoration: none;
     color: white;
+    text-decoration: underline;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.141);
+    margin-bottom: 10px;
 }
 tr td{
-    padding: 5px;
     text-align: center;
 }
 table{
     margin: auto;
 }
-    
-
