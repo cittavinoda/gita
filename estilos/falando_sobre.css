@@ -70,6 +70,13 @@ tr td a{
 tr td{
     text-align: center;
 }
+
+tr td a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
 table{
     margin: auto;
 }

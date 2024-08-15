@@ -52,6 +52,10 @@ h3{
     background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor2));
     color: rgb(104, 248, 9);
 }
+h4{
+    padding: 10px;
+    text-align: justify;
+}
 p{
     margin-top: 10px;
     margin-left: 10px;
