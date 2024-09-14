@@ -15,20 +15,22 @@
 body{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: var(--cor1);  
+    background-color: var(--cor2);  
 }
 
-header{
-    background-color: var(--cor4);
-    width: 90vw;
-    display: block;
+main{
+   
     margin: auto;
+    width: 90vw;
+    background-color: var(--cor0);
+    
 }
-h1{
-    color: white;
+
+.menu{
+    
     text-align: center;
-    padding: 10px;
-    text-shadow: 2px 2px 5px white;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+    padding: 20px 0px 20px 0px;
 }
 
 hr{
@@ -36,8 +38,27 @@ hr{
     border: none;
     background-color: white;
 }
+.menu a{
+    text-decoration: none;
+    color: greenyellow;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+   
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
 
-.capitulos1, .capitulos2, .capitulos3, .capitulos4, .capitulos5{
+h1{
+    text-align: center;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+
+section{
     background-color: var(--cor4);
     width: 90vw;
     display: flex;
@@ -48,7 +69,7 @@ hr{
     padding-bottom: 13px;   
 }
 
-a{
+section a{
     text-align: center;
     width: 90px;
     color: white;
@@ -62,18 +83,7 @@ a{
     font-weight: 600;
 }
 
-a:hover{
+section a:hover{
     background-color: var(--cor1);
     color: black;
-}
-
-div{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    background-color: var(--cor4);
-    width: 90vw;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 5px white;
 }

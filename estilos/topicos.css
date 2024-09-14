@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: rgb(224, 224, 245);
+    --cor1: rgb(187, 187, 225);
+    --cor2: rgb(92, 92, 141);
+    --cor3: rgb(18, 18, 110);
+    --cor4: rgb(1, 1, 64);
+}
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--cor2);  
+}
+
+main{
+    margin: auto;
+    width: 90vw;
+    background-color: var(--cor0);
+}
+
+.nav h3{
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+    padding: 10px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+header h2{
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    color: white; 
+}
+.image{
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.topico{
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+section{
+    padding: 20px 10px 20px 10px;
+}
+
+h3{
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+    color: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+h4{
+    padding: 10px;
+    text-align: justify;
+}
+
+.comentario{
+    padding: 10px;
+    text-align: justify;
+}
+
+p{
+    text-indent: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.livro{
+    text-align: right;
+}
+
+blockquote{
+    text-indent: 30px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: justify;
+}
