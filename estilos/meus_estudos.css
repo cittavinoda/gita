@@ -37,7 +37,7 @@ hr{
     background-color: white;
 }
 
-.capitulos1, .capitulos2, .capitulos3, .capitulos4, .capitulos5{
+.capitulos{
     background-color: var(--cor4);
     width: 90vw;
     display: flex;
