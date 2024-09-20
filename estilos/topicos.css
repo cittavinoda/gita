@@ -24,6 +24,10 @@ main{
     background-color: var(--cor0);
 }
 
+h1{
+    text-align: center;
+}
+
 .nav h3{
     background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
     padding: 20px 0px 20px 0px;
