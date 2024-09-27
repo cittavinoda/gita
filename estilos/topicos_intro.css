@@ -21,7 +21,6 @@ body{
 main{
     margin: auto;
     width: 90vw;
-    height: 90vh;
     background-color: var(--cor0);   
 }
 
