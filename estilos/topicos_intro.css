@@ -25,7 +25,8 @@ main{
 }
 
 .menu{
-    
+    margin: auto;
+    width: 90vw;
     text-align: center;
     background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
     padding: 20px 0px 20px 0px;
@@ -35,6 +36,7 @@ hr{
     height: 1px;
     border: none;
     background-color: white;
+    margin-top: 20px;
 }
 .menu a{
     text-decoration: none;
@@ -42,11 +44,15 @@ hr{
     padding: 10px;
     font-size: 1.2em;
     font-weight: bold;
-   
 }
 .menu a:hover{
     background-color: white;
     color: black;
+}
+
+header{
+    margin: auto;
+    width: 90vw;
 }
 
 h1{
@@ -54,23 +60,23 @@ h1{
     background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
     padding: 20px 0px 20px 0px;
     color: white;
+    font-size: 1.8em;
 }
 
 section{
     background-color: var(--cor4);
     width: 90vw;
-    height: 18vh;
     display: flex;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 13px;   
+    column-gap: 5px;
+    padding-bottom: 10px;
 }
 
 section a{
     text-align: center;
-    width: 50px;
+    width: 30px;
     color: white;
     text-decoration: none;
     padding: 10px 0px 10px 0px;
@@ -85,4 +91,13 @@ section a{
 section a:hover{
     background-color: var(--cor1);
     color: black;
+}
+.vazio{
+    height: 19px;
+    border: solid 2px var(--cor4);
+    box-shadow: 2px 2px 5px var(--cor4);
+    background-color: var(--cor4);
+}
+.vazio:hover{
+    background-color: var(--cor4);
 }

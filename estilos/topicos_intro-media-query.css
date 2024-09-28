@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: rgb(224, 224, 245);
+    --cor1: rgb(187, 187, 225);
+    --cor2: rgb(92, 92, 141);
+    --cor3: rgb(18, 18, 110);
+    --cor4: rgb(1, 1, 64);
+}
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--cor2);  
+}
+
+main{
+    margin: auto;
+    width: 90vw;
+    background-color: var(--cor0);   
+}
+
+

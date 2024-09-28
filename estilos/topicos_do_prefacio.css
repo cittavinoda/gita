@@ -20,13 +20,12 @@ body{
 
 main{
     margin: auto;
-    width: 90vw;
+    width: 70vw;
     height: 90vh;
     background-color: var(--cor0);   
 }
 
 .menu{
-    
     text-align: center;
     background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
     padding: 20px 0px 20px 0px;
@@ -57,28 +56,32 @@ h1{
     color: white;
 }
 
+.secao{
+    display: block;
+    width: 70vw;
+    height: 60vh;
+}
+
 section{
     background-color: var(--cor4);
-    width: 90vw;
-    height: 18vh;
+    width: 70vw;
     display: flex;
-    margin: auto;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding-top: 10px;
-    padding-bottom: 13px;   
+    padding-bottom: 13px;
+    column-gap: 10px; 
 }
 
 section a{
     text-align: center;
-    width: 50px;
+    width: 40px;
     color: white;
     text-decoration: none;
     padding: 10px 0px 10px 0px;
     border: solid 2px white;
     border-radius: 5px;
     box-shadow: 2px 2px 5px var(--cor1);
-    margin: 10px 0px 10px 0px;
     background-color: var(--cor3);
     font-weight: 600;
 }
@@ -86,4 +89,13 @@ section a{
 section a:hover{
     background-color: var(--cor1);
     color: black;
+}
+.none{
+    height: 22px;
+    border: solid 2px var(--cor4);
+    box-shadow: 2px 2px 5px var(--cor4);
+    background-color: var(--cor4);
+}
+.none:hover{
+    background-color: var(--cor4);
 }
