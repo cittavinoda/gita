@@ -15,68 +15,64 @@
 body{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: var(--cor4);  
+    background-color: var(--cor0);  
 }
-div.menu{
-    margin: auto;
+
+main{
+    background-color: var(--cor4);
     width: 80vw;
-    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+    margin: auto;
 }
-div.menu a{
+
+.menu{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
+}
+
+.menu a{
     color: white;
-    font-size: 1.2em;
-    font-weight: bold;
     text-decoration: none;
     padding: 10px;
-    margin-top: 10px;
-}
-div.menu a:hover{
-    background-color: var(--cor0);
-    color: black;
-}
-main{
-    width: 80vw;
-    background-color: var(--cor0);
-    margin: auto;
-    padding: 10px 10px 20px 10px;
-}
-img{
-    display: block;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-div.img{
-    background-image: linear-gradient(to right, var(--cor4), var(--cor2), var(--cor4));
-}
-h1{
-    background-color: var(--cor4);
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-blockquote{
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    font-style: italic;
-}
-.signi{
-    text-indent: 30px;
-    text-align: justify;
+    font-size: 1.2em;
     font-weight: bold;
 }
-p{
-    text-align: justify;
-    padding: 10px 0px 10px 0px;
-    text-indent: 30px;
+
+.menu a:hover{
+    background-color: var(--cor1);
+    color: black;
 }
-ol li {
-   list-style-type: none;
-   text-indent: 30px;
+
+h1{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+section a{
+    border: 2px solid white;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section a:hover{
+    background-color: var(--cor1);
+    color: black;
+}
+
+.vazio{
+    padding: 13px;
+    border: 2px solid var(--cor4);
 }
